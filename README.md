@@ -18,15 +18,15 @@ git commit -m 'message'<br>
 git push origin master / git push<br><br>
 
 <b>[To check what you have done]</b><br>
-git status [lists all changed files]<br>
-git diff [gives the lines that have changed in files]<br><br>
+git status <i>[lists all changed files]</i><br>
+git diff <i>[gives the lines that have changed in files]</i><br><br>
 
 <b> New Branch </b><br>
-[if u want to make a new branch with existing code copied in the new branch e.g.:dev]<br>
-git checkout -b dev [this command will copy all your content to a new branch and master branch will remain as it was]<br><br>
+<i>[if u want to make a new branch with existing code copied in the new branch e.g.:dev]</i><br>
+git checkout -b dev <i>[this command will copy all your content to a new branch and master branch will remain as it was]</i><br><br>
 
 
 <b>[How to merge new branch changes into master branch]</b><br>
-first commit your changes in the new branch refer [To commit any code]<br>
-git checkout master [move into master branch]<br>
-git merge dev [merge contents of dev into master]<br>
+first commit your changes in the new branch refer <i>[To commit any code]</i><br>
+git checkout master <i>[move into master branch]</i><br>
+git merge dev <i>[merge contents of dev into master]</i><br>
