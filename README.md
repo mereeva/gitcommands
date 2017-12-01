@@ -3,14 +3,14 @@ List of commands you need to start with git right away
 
 
 First you need to be in your project that you want to track in git
-  
-[Initializing your project to be tracked in git]
+  
+<b>Initializing your project to be tracked in git </b>
 git init
 git add .
 git commit -m 'message'
 git remote add origin <url>
 git push -u origin master
-  
+  
 [To commit any code]
 git add .
 git commit -m 'message'
