@@ -1,30 +1,32 @@
 # gitcommands
-List of commands you need to start with git right away
+<h1> List of commands you need to start with git right away </h1>
+<br>
+<br>
 
-
-First you need to be in your project that you want to track in git
+<b>Step1<b>: First you need to be in your project that you want to track in git <br><br>
   
-<b>Initializing your project to be tracked in git </b>
-git init
-git add .
-git commit -m 'message'
-git remote add origin <url>
-git push -u origin master
+<b>Initializing your project to be tracked in git </b> <br>
+git init <br>
+git add . <br>
+git commit -m 'message' <br>
+git remote add origin :url <br>
+git push -u origin master <br><br>
   
-[To commit any code]
-git add .
-git commit -m 'message'
-git push origin master / git push
+<b>[To commit any code]</b><br>
+git add . <br>
+git commit -m 'message'<br>
+git push origin master / git push<br><br>
 
-[To check what you have done]
-git status [lists all changed files]
-git diff [gives the lines that have changed in files]
+<b>[To check what you have done]</b><br>
+git status [lists all changed files]<br>
+git diff [gives the lines that have changed in files]<br><br>
 
-[if u want to make a new branch with existing code copied in the new branch e.g.:dev]
-git checkout -b dev [this command will copy all your content to a new branch and master branch will remain as it was]
+<b> New Branch </b><br>
+[if u want to make a new branch with existing code copied in the new branch e.g.:dev]<br>
+git checkout -b dev [this command will copy all your content to a new branch and master branch will remain as it was]<br><br>
 
 
-[How to merge new branch changes into master branch]
-first commit your changes in the new branch refer [To commit any code]
-git checkout master [move into master branch]
-git merge dev [merge contents of dev into master]
+<b>[How to merge new branch changes into master branch]</b><br>
+first commit your changes in the new branch refer [To commit any code]<br>
+git checkout master [move into master branch]<br>
+git merge dev [merge contents of dev into master]<br>
