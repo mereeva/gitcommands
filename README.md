@@ -1,9 +1,9 @@
-# gitcommands
+
 <h1> List of commands you need to start with git right away </h1>
 <br>
 <br>
 
-<b>Step1<b>: First you need to be in your project that you want to track in git <br><br>
+<b>Step1</b>: First you need to be in your project that you want to track in git <br><br>
   
 <b>Initializing your project to be tracked in git </b> <br>
 git init <br>
