@@ -2,7 +2,7 @@
 List of commands you need to start with git right away
 
 
-cd <projectdir> 
+First you need to be in your project that you want to track in git
   
 [Initializing your project to be tracked in git]
 git init
